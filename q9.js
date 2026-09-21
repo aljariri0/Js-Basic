@@ -27,7 +27,7 @@ function Camel_Case(word) {
 
   Cstring += lower_to_upper(word[0], "upper");
 
-  for (let i = 1; i < word.length; i++) {
+  for (let i = 1; i < word.length - 1; i++) {
     if (word[i] == " ") {
       Cstring += lower_to_upper(word[i + 1], "upper");
       i++;
@@ -36,7 +36,7 @@ function Camel_Case(word) {
     }
   }
 
-  return Cstring;
+  return Cstring + lower_to_upper(word[word.length - 1],"lower");
 }
 
 // let word = prompt("Enter your word: ");
