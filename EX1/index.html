@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+
+   <label for="name">Enter your name: </label> 
+   <input type="text" id="name"><br>
+
+   <label for="member">Enter your membership: </label> 
+   <select id="member">
+    <option value="student">Student</option>
+    <option value="regular">Regular</option>
+    <option value="other">Other</option>
+   </select>
+   <button onclick="welcoming()" type="submit">Submit</button>
+
+   <hr>
+   <label for="type-of-book">Enter your prefer book: </label> 
+   <select id="type-of-book">
+    <option value="fiction">Fiction</option>
+    <option value="non-fiction">non-fiction</option>
+   </select>
+
+   <br>
+   <label for="book">Enter the name book you want to borrow: </label> 
+   <input type="text" id="book">
+   <button onclick="submit()" type="submit">Submit</button>
+</body>
+</html>
