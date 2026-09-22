@@ -1,35 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library System</title>
+  </head>
+  <body>
+    <script>
+      let userName = prompt("Enter your name:");
+      let membership = prompt("Enter your membership (Student, Regular):");
 
-   <label for="name">Enter your name: </label> 
-   <input type="text" id="name"><br>
+      alert("Welcome " + userName + "! Your membership is: " + membership);
 
-   <label for="member">Enter your membership: </label> 
-   <select id="member">
-    <option value="student">Student</option>
-    <option value="regular">Regular</option>
-    <option value="other">Other</option>
-   </select>
-   <button onclick="welcoming()" type="submit">Submit</button>
+      let bookType = prompt(
+        "Enter your preferred book type (Fiction or Non-fiction):",
+      );
+      let bookName = prompt("Enter the name of the book you want to borrow:");
 
-   <hr>
-   <label for="type-of-book">Enter your prefer book: </label> 
-   <select id="type-of-book">
-    <option value="fiction">Fiction</option>
-    <option value="non-fiction">non-fiction</option>
-   </select>
-
-   <br>
-   <label for="book">Enter the name book you want to borrow: </label> 
-   <input type="text" id="book">
-   <button onclick="submit()" type="submit">Submit</button>
-</body>
+      alert("You book is being reversed");
+      console.log("Name: " + userName + " " + "Book: " + bookName);
+    </script>
+  </body>
 </html>
