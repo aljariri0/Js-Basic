@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library System</title>
+  </head>
+  <body>
+    <script>
+      let userName = prompt("Enter your name:");
+      let membership = prompt("Enter your membership (student, regular):");
+
+      while (membership != "student" && membership != "regular") {
+        membership = prompt(
+          "Invalid Enter your membership again (student, regular):",
+        );
+      }
+
+      alert("Welcome " + userName + "! Your membership is: " + membership);
+
+      let bookType = prompt(
+        "Enter your preferred book type (Fiction or Non-fiction):",
+      );
+      let bookName = prompt("Enter the name of the book you want to borrow:");
+
+      const info = [userName, membership, bookType, bookName];
+
+      for (let i = 0; i < info.length; i++) {
+        console.log(info[i]);
+      }
+    </script>
+  </body>
+</html>
