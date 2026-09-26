@@ -1,0 +1,49 @@
+.div-1 {
+  background-color: cyan;
+  color: darkred;
+  font-size: 47px;
+  font-family: "Georgia";
+  text-align: center;
+  border-radius: 5px;
+  height: 120px;
+  line-height: 120px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  padding: 10px;
+
+}
+
+.btns {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+  font-weight: normal;
+  background-color:cornflowerblue;
+  
+  border-radius: 5px;
+  border: 1px solid cornflowerblue;
+  width: fit-content;
+  text-align: center;
+  height: 30px;
+}
+
+.btn-1 {
+  font-weight: bold;
+}
+.btn-2 {
+  font-style: italic;
+}
+
+.div-2 {
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
