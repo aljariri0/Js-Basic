@@ -8,6 +8,10 @@ This is a simple web-based library system script.
 - `index.html` (EX2)
 - `index.html` (EX3)
 
+- `index.html` (EX4)
+- `app.js` (EX4)
+- `style.css` (EX4)
+
 ## How It Works (EX1: `index.html`)
 
 When you open `index.html` in a web browser, the application runs the following sequence:
@@ -32,9 +36,20 @@ The second version introduces logic and structure improvements:
 The third version builds on the previous files by adding discounts and genre management:
 
 - Introduces an `applyDiscount` function that appends a "20% Discount" to the user's data array if they are a "student", or "No Discount" if they are "regular".
-
 - Implements an `availableGenres` array to store different book categories.
-
 - Adds `addNewGenre` and `displayGenres` functions to allow adding new genres to the array and printing the available list to the console.
-
 - Evaluates the discount during data collection and logs the fully updated user data array to the console.
+
+## Updates in EX4 (`index.html`, `app.js`, `style.css`)
+
+The fourth version transitions the application into a fully interactive web page:
+
+- Replaces browser prompts with an HTML form containing text inputs and drop-down menus for data collection.
+
+- Moves the JavaScript logic into a separate `app.js` file.
+
+- Validates user input to ensure the username and book title fields are not submitted empty.
+
+- Intercepts the form's submit button click to prevent page reloads, clears previous results, and dynamically displays the formatted user data directly on the page within a `<pre>` element.
+
+- Includes a `style.css` file that applies uniform 4px margins and padding to the form elements.
