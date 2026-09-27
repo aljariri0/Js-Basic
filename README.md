@@ -5,7 +5,7 @@ This is a simple web-based library system script.
 ## Included Files
 
 - `index.html` (EX1)
-- `index_2.html` (EX2)
+- `index.html` (EX2)
 
 ## How It Works (EX1: `index.html`)
 
@@ -17,7 +17,7 @@ When you open `index.html` in a web browser, the application runs the following 
 - Shows an alert stating that the book is being reserved.
 - Logs the user's name and the requested book name directly to the browser's console.
 
-## Updates in EX2 (`index_2.html`)
+## Updates in EX2 (`index.html`)
 
 The second version introduces logic and structure improvements:
 
